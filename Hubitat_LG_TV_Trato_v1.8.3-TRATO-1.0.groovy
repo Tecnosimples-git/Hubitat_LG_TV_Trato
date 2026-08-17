@@ -3,6 +3,8 @@
  *
  * Fork do driver "LGTV with webOS" de Dan Danache (v1.8.3)
  *   Original: https://codeberg.org/dan-danache/hubitat/src/branch/main/lgtv-drivers
+ * Developer: ryuleal
+ * Company: TecnoSimples
  *
  * O core de comunicação webOS deste driver é IDÊNTICO ao original.
  * Apenas foram adicionadas:
@@ -30,7 +32,7 @@ import com.hubitat.app.ChildDeviceWrapper
 @Field static final Integer MAX_FAST_PING = 20
 
 metadata {
-    definition(name:DRIVER_NAME, namespace:'TRATO', author:'TRATO (fork de Dan Danache)', importUrl:'https://codeberg.org/dan-danache/hubitat/raw/branch/main/lgtv-drivers/lgtv-with-webos.groovy') {
+    definition(name:DRIVER_NAME, namespace:'TRATO', author:'ryuleal / TecnoSimples (fork de Dan Danache)', importUrl:'https://codeberg.org/dan-danache/hubitat/raw/branch/main/lgtv-drivers/lgtv-with-webos.groovy') {
         // ---- Capabilities originais LG (inalteradas) ----
         capability 'Actuator'
         capability 'Initialize'

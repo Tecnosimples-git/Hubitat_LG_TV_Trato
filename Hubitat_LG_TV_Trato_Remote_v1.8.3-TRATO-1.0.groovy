@@ -4,6 +4,8 @@
  * Component driver para o "LG TV Fork TRATO".
  * Fork do driver "LGTV Remote" de Dan Danache (v1.8.3).
  *   Original: https://codeberg.org/dan-danache/hubitat/src/branch/main/lgtv-drivers
+ * Developer: ryuleal
+ * Company: TecnoSimples
  *
  * Este child device é criado pelo driver pai quando "Simulate TV Remote" está
  * habilitado. Reutiliza o websocket de input remoto da TV LG webOS para enviar
@@ -66,7 +68,7 @@ import groovy.transform.Field
 ]
 
 metadata {
-    definition(name:DRIVER_NAME, component:true, namespace:'TRATO', author:'TRATO (fork de Dan Danache)') {
+    definition(name:DRIVER_NAME, component:true, namespace:'TRATO', author:'ryuleal / TecnoSimples (fork de Dan Danache)') {
         attribute 'status', 'enum', ['playing', 'stopped']
     }
     command 'clearQueue'

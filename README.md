@@ -90,8 +90,8 @@ Após instalar o driver, em **State Variables** você deve ver:
 ```
 activities: [:]
 childDeviceStatus: created
-lastDisconnectAt: 
-lastReconnectAt: 
+lastDisconnectAt:
+lastReconnectAt:
 disconnectCount: 0
 reconnectCount: 0
 ```
